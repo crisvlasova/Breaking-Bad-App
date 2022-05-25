@@ -1,0 +1,43 @@
+.characters-container {
+    margin: 30px;
+}
+
+.character-img {
+    height: 250px;
+    max-width: 200px ;
+    border-radius: 13px;
+}
+
+.all-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.character-card {
+    perspective: 1000px;
+    display: block;
+    height: 400px;
+    width: 250px;
+    background-color: black;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin: 20px;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    transform: rotateX(20deg);
+    transform: rotateY(10deg);
+}
+
+
+.character-card:hover {
+    transform: rotateX(0deg);
+    /* transform: rotateY(0deg); */
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+    border: 2px solid greenyellow;
+    box-shadow: 0 5px 40px 5px green;
+}

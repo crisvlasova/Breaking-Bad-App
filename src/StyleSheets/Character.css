@@ -1,0 +1,36 @@
+.character-details {
+    border: 2px solid greenyellow;
+    box-shadow: 0 10px 60px 10px green;
+    border-radius: 30px;
+    background-color: black;
+    padding: 20px;
+    margin: 40px;
+    width: 450px;
+}
+
+.character-details img {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.detail-container {
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.detail-container button {
+    background-color: green;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color:white;
+}
+
+.detail-container button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+}

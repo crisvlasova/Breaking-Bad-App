@@ -1,0 +1,12 @@
+.home-container button {
+    width: 200px;
+    background-color: green;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color:white;
+}
+
+.home-container button:hover {
+    background-color: greenyellow;
+    color: black;
+}

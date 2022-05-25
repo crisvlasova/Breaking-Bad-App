@@ -1,0 +1,13 @@
+.navbar {
+    margin-top: 35px;
+    display: flex;
+}
+
+.nav-component {
+    margin: 5px;
+    color:greenyellow;
+}
+
+.nav-component:hover {
+    color: white
+}
